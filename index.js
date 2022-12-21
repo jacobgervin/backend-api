@@ -207,7 +207,7 @@ app.delete('/kursus/:id', (req, res) => {
 // denne port er den der skal lyttes til i postman. 
 // localhost:3000/user
 
-app.listen(3000, () => {
+app.listen(10000, () => {
     console.log('server running.....');
 });
 
